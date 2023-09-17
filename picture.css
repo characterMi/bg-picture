@@ -1,0 +1,79 @@
+html { 
+    overflow: hidden;
+}
+
+
+body {
+    background: black;
+}
+
+.circle {
+    background: #00018d;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    margin-left: 28px;
+}
+
+.skyblue {
+    display: inline;
+    color: #0ba7a6;
+    font-size: 40px;
+}
+
+.blue {
+    color: #00018d;
+    display: inline;
+    font-size: 40px;
+}
+
+.main {
+    margin: 50px 40px;
+    width: 500px;
+}
+
+
+.skew {
+    width: 400px;
+    height: 250px;
+    background: #00018d;
+    transform: rotate(15deg);
+    border-radius: 10px;
+    margin-top: 220px;
+    margin-left: 600px
+}
+
+.skew h2 {
+    transform: rotate(-15deg);
+    margin: 120px 50px;
+    display: inline-block;
+    color: #0ba7a6;
+    
+}
+
+
+.skew2 {
+    background: #0049b1;
+    width: 300px;
+    height: 200px;
+    transform: rotate(45deg);
+    margin-top: -100px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.text p {
+    display: inline;
+}
+
+
+@media screen and (min-width:790px) {
+    .skew {
+        margin-top: 150px;
+    }
+}
+@media screen and (min-width:870px) {
+    .skew {
+        margin-top: 50px;
+    }
+}
